@@ -1,63 +1,47 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
-     
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
     
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    background-image: linear-gradient( to right, rgba(140, 48, 211, 0.941),rgb(60, 0, 97));
+
+}
+input,button
+{
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+main div
+{
+    color: white;
+    text-align: center;
+    margin-top:5%;
+
+}
+.city,.weather
+{
+    font-size: 30px;
+}
+.temp,.hi-low
+{
+    text-shadow: 2px 2px 8px white;
+    font-size:70px;
+
+}
